@@ -5,11 +5,11 @@
 - `POST /login` — логин, выдает JWT
 
 **Accounts** (`/api/accounts`)
-- `POST /` — создать счет
-- `GET /` — список моих счетов
+- `POST` — создать счет
+- `GET` — список моих счетов
 
 **Transfers** (`/api/transfers`)
-- `POST /` — перевод (`{fromAccountId, toAccountId, amount}`)
+- `POST` — перевод (`{fromAccountId, toAccountId, amount}`)
 
 **Transactions** (`/api/transactions`)
-- `GET /` — история (параметры `page`, `size`)
+- `GET` — история (параметры `page`, `size`)
